@@ -1,0 +1,30 @@
+Column Name,Description
+Partner Name,Name of the trading partner or country
+Year,Year of the data record
+Export (US$ Thousand),Total value of exports in thousands of US dollars
+Import (US$ Thousand),Total value of imports in thousands of US dollars
+Export Product Share (%),Share of total exports for a product category
+Import Product Share (%),Share of total imports for a product category
+Revealed Comparative Advantage,Comparative advantage indicator for a product category
+World Growth (%),Yearly growth rate of world trade
+Country Growth (%),Yearly growth rate of the country’s trade
+AHS Simple Average (%),Simple average tariff rate based on AHS classification
+AHS Weighted Average (%),Weighted average tariff rate based on AHS classification
+AHS Total Tariff Lines,Total number of tariff lines in the AHS system
+AHS Dutiable Tariff Lines Share (%),Percentage of tariff lines with duties under AHS
+AHS Duty Free Tariff Lines Share (%),Percentage of tariff lines without duties under AHS
+AHS Specific Tariff Lines Share (%),Percentage of tariff lines with specific duties under AHS
+AHS AVE Tariff Lines Share (%),Percentage of tariff lines with AVE duty rates under AHS
+AHS MaxRate (%),Maximum tariff rate under AHS
+AHS MinRate (%),Minimum tariff rate under AHS
+AHS SpecificDuty Imports (US$ Thousand),Total value of imports with specific duty rates (AHS)
+AHS Dutiable Imports (US$ Thousand),Total value of imports with duties (AHS)
+AHS Duty Free Imports (US$ Thousand),Total value of imports without duties (AHS)
+MFN Simple Average (%),Simple average tariff rate under MFN
+MFN Weighted Average (%),Weighted average tariff rate under MFN
+MFN Total Tariff Lines,Total number of tariff lines under MFN
+MFN Dutiable Tariff Lines Share (%),Percentage of tariff lines with duties under MFN
+MFN Duty Free Tariff Lines Share (%),Percentage of tariff lines without duties under MFN
+MFN Specific Tariff Lines Share (%),Percentage of tariff lines with specific duties under MFN
+MFN AVE Tariff Lines Share (%),Percentage of tariff lines with AVE duty rates under MFN
+MFN MaxRate (%),Maximum tariff rate under MFN
