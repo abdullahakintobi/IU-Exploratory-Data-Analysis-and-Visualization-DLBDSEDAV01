@@ -78,6 +78,18 @@ To run this analysis locally, follow these steps:
     jupyter notebook notebook/analysis.ipynb
     ```
 
+### Results
+
+The notebook includes:
+
+* Descriptive statistics
+
+* Correlation analysis
+
+* Interactive visualizations
+
+* Insights and observations based on the data
+
 ### Key Findings
 
 The analysis revealed several key insights into Germany's economic performance and trade policy.
