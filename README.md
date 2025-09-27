@@ -1,19 +1,16 @@
-## Course: Exploratory Data Analysis and Visualization (DLBDSEDAV01)
+# Course: Exploratory Data Analysis and Visualization (DLBDSEDAV01)
 
-### Project Title
+## Project Title: **A Visual Exploration of the Relationship Between Trade Tariffs and Germany's Economic Growth (1988-2021)**
 
-**A Visual Exploration of the Relationship Between Trade Tariffs and Germany's Economic Growth (1988-2021)**
-
-### Project Description
+## Project Description
 
 This project conducts an exploratory data analysis (EDA) of Germany's trade and economic performance from 1988 to 2021. The primary goal is to determine the statistical correlation between changes in tariff rates, trade volumes, and economic growth. The analysis uses Python with key data science libraries to clean the data, calculate descriptive statistics, visualize trends, and provide insights into the complex relationship between trade policy and economic indicators.
 
-### File Structure
+## File Structure
 
 The project is organized into a clean and logical file structure to facilitate navigation and reproducibility.
 
-```
-.
+```yaml
 ├── data
 │   ├── meta
 │   │   └── data_dictionary.csv
@@ -32,7 +29,9 @@ The project is organized into a clean and logical file structure to facilitate n
 ├── README.md
 └── uv.lock
 ```
-### Features
+
+
+## Features
 
 * Data loading and cleaning using pandas
 
@@ -44,11 +43,13 @@ The project is organized into a clean and logical file structure to facilitate n
 
 * Clear structure for reproducible analysis
 
+
 ### Technologies & Dependencies
 
-The analysis was performed using Python 3.11+ and the following libraries. All dependencies are managed using `pyproject.toml`.
+The analysis was performed using Python 3.11+ and the following libraries. All dependencies are managed using UV package manager.
 
-```toml
+```txt
+# Dependencies
 ipykernel>=6.30.1
 nbformat>=5.10.4
 numpy>=2.3.3
@@ -58,25 +59,32 @@ scipy>=1.16.2
 statsmodels>=0.14.5
 ```
 
+
 ### Installation & Usage
 
 To run this analysis locally, follow these steps:
 
-1.  **Clone the repository:**
+* **Clone the repository:**
+
     ```bash
     git clone https://github.com/abdullahakintobi/IU-Exploratory-Data-Analysis-and-Visualization-DLBDSEDAV01.git
     cd IU-Exploratory-Data-Analysis-and-Visualization-DLBDSEDAV01
     ```
-2.  **Set up a virtual environment and install dependencies:**
+
+* **Set up a virtual environment and install dependencies:**
+
     ```bash
     python -m venv .venv
     .venv\Scripts\activate  # On Mac, use: .venv/bin/activate 
     pip install pip install -r requirements.txt
     ```
-3.  **Launch the Jupyter Notebook:**
+
+* **Launch the Jupyter Notebook:**
+
     ```bash
     jupyter notebook notebook/analysis.ipynb
     ```
+
 
 ### Results
 
@@ -90,6 +98,7 @@ The notebook includes:
 
 * Insights and observations based on the data
 
+
 ### Key Findings
 
 The analysis revealed several key insights into Germany's economic performance and trade policy.
@@ -98,9 +107,11 @@ The analysis revealed several key insights into Germany's economic performance a
   * **Trade Volume Expansion:** This liberalization was strongly correlated with a significant expansion of trade volumes. The negative correlation between MFN tariffs and exports was **-0.693**, confirming that as tariffs fell, trade grew.
   * **Tariffs & Economic Growth:** The relationship between tariffs and economic growth was weak and positive, with a correlation of **0.330** (AHS vs. Growth) and **0.232** (MFN vs. Growth). This suggests that other factors beyond tariff policy were the primary drivers of GDP growth.
 
+
 ### License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the [`LICENSE`](./LICENSE) file for details.
+
 
 ### Acknowledgements
 
