@@ -46,7 +46,7 @@ The project is organized into a clean and logical file structure to facilitate n
 * Clear structure for reproducible analysis
 
 
-### Technologies & Dependencies
+### Dependencies
 
 The analysis was performed using Python 3.11+ and the following libraries. All dependencies are managed using UV package manager.
 
@@ -62,7 +62,7 @@ statsmodels>=0.14.5
 ```
 
 
-### Installation & Usage
+### Usage
 
 To run this analysis locally, follow these steps:
 
@@ -76,9 +76,9 @@ To run this analysis locally, follow these steps:
 * **Set up a virtual environment and install dependencies:**
 
     ```bash
-    python -m venv .venv
-    .venv\Scripts\activate  # On Mac, use: .venv/bin/activate 
-    pip install pip install -r requirements.txt
+    python -m venv .venv    # macOS/Linux: python3 -m venv .venv
+    .venv\Scripts\activate  # macOS/Linux: source .venv/bin/activate
+    pip install -r requirements.txt
     ```
 
 * **Launch the Jupyter Notebook:**
