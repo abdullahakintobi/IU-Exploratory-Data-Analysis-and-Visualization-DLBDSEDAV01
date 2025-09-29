@@ -1,5 +1,6 @@
 # Course: Exploratory Data Analysis and Visualization (DLBDSEDAV01)
-[![DOI](https://zenodo.org/badge/1057438409.svg)](https://doi.org/10.5281/zenodo.17211819)
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python) ![NumPy](https://img.shields.io/badge/NumPy-2.3.3-lightgrey?logo=numpy) ![Pandas](https://img.shields.io/badge/Pandas-2.3.2-yellow?logo=pandas) ![SciPy](https://img.shields.io/badge/SciPy-1.16.2-orange?logo=scipy) ![Plotly](https://img.shields.io/badge/Plotly-6.3.0-brightgreen?logo=plotly) [![DOI](https://zenodo.org/badge/1057438409.svg)](https://doi.org/10.5281/zenodo.17211819)
+
 
 ## Project Title: **A Visual Exploration of the Relationship Between Trade Tariffs and Germany's Economic Growth (1988-2021)**
 
